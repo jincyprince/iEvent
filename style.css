@@ -1,0 +1,38 @@
+.home-page  img{width: 100%}
+.prince-btn{ top:0 px; left: 0px;}
+
+.devicons
+{
+font-size: 50px;
+position: relative;
+
+
+}
+.social{
+position: absolute;
+right:40px;
+left:auto;
+
+}
+.nav navbar-nav{
+
+	position: relative;
+}
+
+.sign{
+	position:absolute;
+	right:40px;
+	top: 10px;
+	left:auto;
+}
+.main{
+	/*background: url(https://www.freewebheaders.com/wordpress/wp-content/gallery/football/awseme-covered-football-stadium-website-header.jpg) no-repeat center center fixed;*/
+  background: url(https://orig00.deviantart.net/da29/f/2011/007/2/5/25978c593f3ca026804aa479f333eac6-d2mmlmg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  
+  
+}
