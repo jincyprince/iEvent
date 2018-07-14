@@ -3,7 +3,7 @@
 }
 
 .sports img {
-	width: initial
+	width: 50px;
 }
 
 .prince-btn {
@@ -33,15 +33,27 @@
 	left: auto;
 }
 
-.main {
-	/*background: url(https://www.freewebheaders.com/wordpress/wp-content/gallery/football/awseme-covered-football-stadium-website-header.jpg) no-repeat center center fixed;*/
-	background: url(https://orig00.deviantart.net/da29/f/2011/007/2/5/25978c593f3ca026804aa479f333eac6-d2mmlmg.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+.form{
+
+	margin: 0 auto;
+	width: 250px;
 }
 
 .class {
 	position: relative;
+}
+.event{
+	margin: 100px;
+	padding: 100px;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/04/07/48/465811cc88e057c.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:70%;
+
+}
+.play{
+
+	margin: 100px;
+	padding: 100px;
+	
 }

@@ -1,0 +1,11 @@
+body {
+    background-image: url(book.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.jumbotron {
+    background-color: transparent !important
+}
