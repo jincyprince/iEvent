@@ -1,19 +1,95 @@
 <html>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css">
-<link rel="stylesheet" type="text/css" href="book1.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
 
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="book1.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
 
 </head>
 
+
+
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html">
+                    <img src="img/logo.jpg" height="50" />
+                </a>
+            </div>
+            <ul class="nav navbar-nav" style="color:red; ">
+
+
+                <li>
+                    <a href="GetTogether.html" style="color:black;">
+                        <strong>Get Together</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="Book&Play.html" style="color:black;">
+                        <strong>Book and Play</strong>
+                    </a>
+                </li>
+
+
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color: black;">
+                        <strong>
+                            <b>Our Centers</b>
+                        </strong>
+
+                    </a>
+                    <ul class="dropdown-menu js-our-centers-menu">
+
+
+                        <li>
+                            <a href="">Kings School Al Barsha</a>
+                        </li>
+                        <li>
+                            <a href="">Kings School Nad Al Sheba</a>
+                        </li>
+                        <li>
+                            <a href="">Kings School Dubai</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+
+                <li>
+                    <a href="#" style="color:black;">
+                        <strong>Contact Us</strong>
+                    </a>
+                </li>
+            </ul>
+            <ul class="sign">
+                <!---
+                            
+                            <a class="btn btn-default" href="login.html" role="button" style="color:black;"align=>-->
+                <a href="login.html">
+                    <button type="button" class="btn btn-primary btn-md">Sign In</button>
+                </a>
+
+
+
+
+
+                <a href="http://eepurl.com/dAbOF9">
+                    <button type="button" class="btn btn-primary btn-md">Sign Up</button>
+
+                </a>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
         <div class="jumbotron col-sm-offset-3">
             <h1>Book and Play</h1>
@@ -43,50 +119,64 @@
             </div>
             <div class="form-group">
                 <label for="inputsports" class="col-sm-3 control-label">Date</label>
-                <div class="input-group date">
+                <div class="col-sm-5">
+                    <div class="input-group date">
                         <input type="text" class="form-control" value="12-02-2012" input data-provide="datepicker">
                         <div class="input-group-addon">
                             <span class="glyphicon glyphicon-th"></span>
                         </div>
                     </div>
+                </div>
+                </div>
                 <div class="form-group">
-                    <div class="col-sm-offset-5 col-sm-6">
-                        <button type="submit" class="btn btn-default">Search</button>
+                        <label for="inputsports" class="col-sm-3 control-label">Duration</label>
+                        <div class="col-sm-5">
+                            <select class="form-control" id="exampleFormControlSelect1" >
+                                <option>1hr</option>
+                                <option>2hrs</option>
+                                <option>3hrs</option>
+                                <option>4hrs</option>
+                                <option>5hrs</option>
+                                <option>6hrs</option>
+                                <option>7hrs</option>
+    
+                            </select>
+                        </div>
+                    </div>
+                
+                <div class="form-group">
+                    <label for="inputsports" class="col-sm-3 control-label">Time</label>
+                    <div class="col-sm-5">
+                        <select class="form-control" id="exampleFormControlSelect1" >
+                            <option>8.00</option>
+                            <option>9.00</option>
+                            <option>10.00</option>
+                            <option>11.00</option>
+                            <option>12.00</option>
+                            <option>13.00</option>
+                            <option>14.00</option>
+
+                        </select>
                     </div>
                 </div>
+                <div class="form-group">
+
+                    <div class="col-sm-offset-5 col-sm-6">
+                        <a href="school.html">
+                            <button type="button" class="btn btn-default">Search</button>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+
         </form>
-        </div>
     </div>
 
-    <!-- <div class="book">
-        <div class="bp" style="margin: 20px; padding: 20px;">
-
-            <h1 style="text-align: center;">Book and Play</h1>
-            <div class="form-group" style="text-align: center;">
-                <label style=" margin: 20; font-size:35px" for="exampleFormControlSelect1">City</label>
-
-                <select style="font-size:20px" class="form-control" id="exampleFormControlSelect1">
-                    <option>Abu Dhabi</option>
-                    <option>Dubai</option>
-                    <option>Sharjah</option>
-
-                </select>
-            </div>
-
-
-            <div class="form-group" style="text-align: center;">
-                <label style=" margin:20;font-size:35px" for="exampleFormControlSelect1">Sport</label>
 
 
 
-
-            </div>
-            <br></br>
-            <div>
-                <button style="margin:auto; display: block;">Search</button>
-            </div>
-        </div>
-    </div> -->
 
 
 </body>
